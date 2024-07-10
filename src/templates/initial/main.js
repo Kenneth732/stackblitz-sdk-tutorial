@@ -5,3 +5,4 @@ const fragment = document.createRange().createContextualFragment(page);
 
 // document.body.insertAdjacentHTML('afterbegin', page);
 document.body.prepend(fragment)
+
